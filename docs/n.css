@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-family: system-ui, 'Segoe UI', Roboto, Ubuntu, Helvetica, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin:0 auto; max-width: 1366; /* Defining the maximum width of the page and centering it if reached **/
+  padding:5%;                     /* A bit of breathing area from the browser's frame */
+  line-height: 1.5;
+}
+
+header {
+  border-bottom: 1px solid black;
+  height: 64px;
+  line-height: 64px;
+  overflow: hidden;
+  padding-left: calc(2% -10px); /* the -10px is because "header a" adds a padding of 10px but we want to exclude the first one **/
+}
+
+header a {
+  display: inline-block;
+  height: 64px;
+  padding:0 10px; 
+}
+
+
+#pageLink {
+   text-decoration: underline;
+   text-underline-offset: 6px;
+}
+
+main {
+  margin:0 2%;
+}
+
+a                { color: #428bca; text-decoration: none; }
+a:focus, a:hover { color: #2a6496; }
+
+blockquote{
+  width:80%;
+  margin:50px auto;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+  border-radius:10px;
+}
